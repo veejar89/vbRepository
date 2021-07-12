@@ -1,4 +1,4 @@
-filename = "D:\Tools\random.fxml"
+filename = CurDir + "\random.fxml"
 
 Function readTextFile()
 	Set objFileToRead = CreateObject("Scripting.FileSystemObject").OpenTextFile(filename,1)
@@ -136,3 +136,4 @@ If sCheck = decode("3:37<3") then
 Else
 	Msgbox "Hello Rajeev!"
 End If
+ No newline at end of file
